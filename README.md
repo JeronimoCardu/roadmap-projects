@@ -7,4 +7,4 @@
 [Age Calculator](https://roadmap.sh/projects/age-calculator "Age Calculator")
 [Custom Dropdown](https://roadmap.sh/projects/custom-dropdown "Custom Dropdown")
 [task Tracker](https://roadmap.sh/projects/task-tracker-js "Task Tracker")
-[Github Random Repository](https://roadmap.sh/projects/github-random-repository, "Github Random Repository")
+[Github Random Repository](https://roadmap.sh/projects/github-random-repo, "Github Random Repository")
