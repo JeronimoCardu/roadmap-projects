@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "@octokit/core": "^6.1.2"
+  },
+  "name": "roadmap-projects",
+  "version": "1.0.0",
+  "description": "[Simple-Tabs](https://roadmap.sh/projects/simple-tabs \"Simple-Tabs\")\r [Cookies-Consent](https://roadmap.sh/projects/cookie-consent \"Cookies-Consent\")\r [Restricted Textarea](https://roadmap.sh/projects/restricted-textarea \"Restricted-Textarea\")\r [Accordion](https://roadmap.sh/projects/accordion \"Accordion\")\r [Age Calculator](https://roadmap.sh/projects/age-calculator \"Age Calculator\")\r [Custom Dropdown](https://roadmap.sh/projects/custom-dropdown \"Custom Dropdown\")\r [task Tracker](https://roadmap.sh/projects/task-tracker-js \"Task Tracker\")",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

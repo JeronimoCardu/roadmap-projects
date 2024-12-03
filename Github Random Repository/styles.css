@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    width: 100%;
+    height: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#finder-container{
+    width: 20%;
+    margin: 30px auto;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.title img{
+    width: 10%;
+}
+#languages-selector{
+    width: 100%;
+    height: 45px;
+    outline: none;
+    border-radius: 10px;
+    padding: 0 10px;
+    font-size: 20px;
+    margin: 20px 0;
+}
+#repository-content{
+    background-color: #E9ECEF;
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+    text-align: center;
+    align-content: center;
+}
+.mainMsgError{
+    background-color: #FFC9C9 !important;
+}
+
+#refresh-button{
+    width: 100%;
+    height: 45px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    margin: 15px 0;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.notShow{
+    display: none;
+}
+.errorShow{
+    background-color: red !important;
+}
+
+.repositoryFinded{
+    text-align: left !important;
+    height: 200px !important;
+    padding: 0 20px;
+}
+.repositoryFinded h1{
+    margin: 10px 0;
+}
+.repositoryFinded div{
+    display: flex;
+    height: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.repositoryFinded div p{
+    margin-right: 15px;
+}
+.repositoryFinded div img{
+    width: 22px;
+}
