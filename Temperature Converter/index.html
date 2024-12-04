@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Temperature Converter</title>
+</head>
+<body>
+    <section id="temperature-container">
+        <h1>Temperature Converter</h1>
+        <p id="description">Enter the temperature, select units and submit</p>
+        <div id="converter">
+            <input id="temperature" class="border" type="number" placeholder="0.00">
+            <div id="from-unit" class="unit border">
+                <button id="from-unit-btn" class="border">
+                    From Unit
+                    <img src="/assets/arrow_drop_down.svg" alt="">
+                </button>
+                <div id="options" class="border fromOptions">
+                    <li>Fahrenheit</li>
+                    <li>Celsius</li>
+                    <li>Kelvin</li>
+                </div>
+            </div>
+            <div id="to-unit" class="unit">
+                <button id="to-unit-btn" class="border">
+                    To Unit
+                    <img src="/assets/arrow_drop_down.svg" alt="">
+                </button>
+                <div id="options" class="border toOptions">
+                    <li>Fahrenheit</li>
+                    <li>Celsius</li>
+                    <li>Kelvin</li>
+                </div>
+            </div>
+            <button id="converter-btn" class="border">Convert</button>
+        </div>
+        <p class="hidden" id="result">34 Celsius is 93.2 Fahrenheit</p>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
